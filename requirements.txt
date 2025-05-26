@@ -1,0 +1,29 @@
+# FastAPI web framework
+fastapi==0.68.0
+
+# ASGI server
+uvicorn==0.15.0
+
+# Load .env
+python-dotenv==0.19.0
+
+# HTTP client for NewsData.io
+httpx==0.19.0
+
+# AI agent orchestration
+crewai>=0.35,<0.36
+
+# LangChain OpenAI binding (0.1.x series)
+langchain-openai>=0.1.24,<0.2
+
+# OpenAI SDK (match CrewAI's dependency)
+openai>=1.13.3,<2.0.0
+
+# Jinja2 for template rendering
+jinja2==3.0.1
+
+# python-multipart for handling multipart form data
+python-multipart==0.0.5
+
+# aiofiles for asynchronous file operations
+aiofiles==0.7.0
